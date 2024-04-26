@@ -1,0 +1,191 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E0E0E0;
+}
+
+.cv {
+    background: #EEEEEE;
+    height: 100vh;
+    width: 500px;
+    margin: 0px auto;
+    display: flex;
+}
+
+/* KIRI */
+.cv .kiri {
+    width: 200px;
+    height: 100%;
+}
+.cv .kiri .foto {
+    width: 200px;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+.cv .kiri .foto img {
+    height: 100%;
+}
+.cv .kiri .bawah {
+    width: 200px;
+    height: 70%;
+    background: #FDD835;
+    border-top-right-radius: 20px;
+    padding-top: 20px;
+}
+.cv .kiri .bawah .card {
+    text-align: center;
+}
+.cv .kiri .bawah .card h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cv .kiri .bawah .card p {
+    float: right;
+    font-size: 13px;
+}
+.cv .kiri .bawah .kontak p {
+    text-align: left;
+    margin-left: 5px;
+    width: 150px;
+}
+.cv .kiri .bawah .kontak .isi .items {
+    padding-right: 5px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cv .kiri .bawah .card .isi .icon {
+    color: #FFFFFF;
+    padding-top: 6px;
+    padding-right: 20px;
+    width: 50px;
+    height: 30px;
+    border-bottom-right-radius: 50px;
+    background: #212121;
+}
+.cv .kiri .bawah .kemampuan .isi {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0px auto;
+}
+.cv .kiri .bawah .kemampuan .gambar {
+    width: 55px;
+    height: 55px;
+    background: #FFFFFF;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+.cv .kiri .bawah .kemampuan .gambar img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+/* kiri */
+
+/* KANAN */
+.cv .kanan {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.cv .kanan .atas {
+    height: 35px;
+    width: 110%;
+    position: relative;
+}
+.cv .kanan .atas .satu {
+    width: 100%;
+    height: 100%;
+    border-left: 5px solid #EEEEEE;
+    border-bottom: 5px solid #EEEEEE;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #FDD835;
+}
+.cv .kanan .atas .dua {
+    width: 92%;
+    height: 100%;
+    border-left: 5px solid #EEEEEE;
+    border-bottom: 5px solid #EEEEEE;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #F9A825;
+}
+.cv .kanan .atas .tiga {
+    width: 80%;
+    height: 100%;
+    border-left: 5px solid #EEEEEE;
+    border-bottom: 5px solid #EEEEEE;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #212121;
+    padding-left: 25px;
+    color: #FFFFFF;
+}
+.cv .kanan .bawah {
+    height: 95%;
+    width: 95%;
+    background: #FFFFFF;
+}
+.cv .kanan .bawah p {
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+.cv .kanan .bawah .isi {
+    padding: 0px 20px 20px;
+}
+.cv .kanan .bawah .nama h1 {
+    margin-bottom: 10px;
+}
+.cv .kanan .bawah .nama p span {
+    text-align: justify;
+    width: 45px;
+    display: inline-block;
+}
+.cv .kanan .bawah .judul {
+    margin-bottom: 5px;
+    height: 35px;
+    width: 300px;
+    position: relative;
+    background: #EEEEEE;
+    left: -35px;
+}
+.cv .kanan .bawah .judul .satu {
+    width: 100%;
+    height: 35px;
+    border-bottom-right-radius: 50px;
+    border: 5px solid #EEEEEE;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #212121;
+}
+.cv .kanan .bawah .judul .dua {
+    width: 90%;
+    height: 35px;
+    border-bottom-right-radius: 50px;
+    border: 5px solid #EEEEEE;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #F9A825;
+    padding: 4px;
+}
+/* kanan */
