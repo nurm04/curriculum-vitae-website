@@ -65,7 +65,8 @@ body {
 .cv .kiri .bawah .card .isi .icon {
     color: #FFFFFF;
     padding-top: 6px;
-    width: 50px;
+    padding-right: 5px;
+    width: 40px;
     height: 30px;
     border-bottom-right-radius: 50px;
     background: #212121;
