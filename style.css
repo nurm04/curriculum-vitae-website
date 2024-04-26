@@ -52,8 +52,8 @@ body {
 }
 .cv .kiri .bawah .kontak p {
     text-align: left;
-    margin-left: 5px;
-    width: 150px;
+    margin-left: 3px;
+    width: 100%;
 }
 .cv .kiri .bawah .kontak .isi .items {
     padding-right: 5px;
@@ -65,10 +65,10 @@ body {
 .cv .kiri .bawah .card .isi .icon {
     color: #FFFFFF;
     padding-top: 6px;
-    padding-right: 5px;
-    width: 40px;
+    padding-right: 10px;
+    width: 45px;
     height: 30px;
-    border-bottom-right-radius: 50px;
+    border-bottom-right-radius: 30px;
     background: #212121;
 }
 .cv .kiri .bawah .kemampuan .isi {
