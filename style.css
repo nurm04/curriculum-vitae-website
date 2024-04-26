@@ -152,12 +152,8 @@ body {
 .cv .kanan .bawah .isi {
     padding: 0px 20px 10px;
 }
-.cv .kanan .bawah .nama h1 {
-    margin-bottom: 10px;
-}
-.cv .kanan .bawah .nama p span {
-    text-align: justify;
-    width: 45px;
+.cv .kanan .bawah .tentangSaya p span {
+    width: 120px;
     display: inline-block;
 }
 .cv .kanan .bawah .judul {
